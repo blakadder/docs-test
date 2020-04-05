@@ -8,8 +8,6 @@ edit_uri: 'https://github.com/tasmota/docs/blob/master/docs/'
 theme: 
   name: material
   # custom_dir: 'theme'
-  logo: '_media/logo.svg'
-  favicon: _media/favicon.ico
   palette:
     primary: 'blue'
     accent: 'indigo'
@@ -27,16 +25,10 @@ extra:
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/tasmota'
 nav: 
-  - Home: index.md
+  - Bug: index.md
+  - Fix1: fix.md
+  - Fix2: fix2.md
 
 
 markdown_extensions:
   - admonition
-  - toc:
-     permalink: "~"
-     toc_depth: 3
-  - pymdownx.mark
-  - pymdownx.betterem
-  - pymdownx.caret
-  - codehilite
-  - meta
